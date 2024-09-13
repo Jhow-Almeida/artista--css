@@ -69,18 +69,21 @@ ul#menu li a{
 main{
   display: flex;
   justify-content: center;
+  height: 700px;
 }
 
 #principal{
   margin: 45px;
   display: flex;
   justify-content: center;
+  gap: 20px;
 }
 
 #principal figure{
   display: flex;
   flex: 1;
   justify-content: end;
+  align-items: center;
 }
 
 figure img{
@@ -91,14 +94,92 @@ figure img{
   display: flex;
   flex: 1;
   flex-direction: column;
+  gap: 20px;
 }
 #sec_ctd h1{
   text-align: end;
   font-size: 40px;
-  width: 80%
+  width: 80%;
+  vertical-align: top;
 }
 
 #sec_ctd p{
   text-align: justify;
-  width: 75%;
+  width: 70%;
+}
+
+section#second{
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  gap: 50px;
+  align-items: center;
+}
+
+.cartaz .capa{
+  width: 200px;
+}
+
+footer {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer #contato {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+#email, #social {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+#social a img {
+  width: 25px;
+}
+
+#descricao{
+  border: 1px solid #555;
+  padding: 30px;
+}
+
+div#descricao{
+  padding-right: 400px;
+}
+
+#acesso{
+  padding: 30px 60px;
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size:x-large;
+  border-radius: 5%;
+  color: white;
+}
+
+p a{
+  text-decoration: underline;
+  color: -webkit-link;
+}
+
+#acesso.m{
+  display: flex;
+  gap: 30px;
+}
+
+#acesso.m a img {
+  width: 30px;
+  gap: 30px;
 }
